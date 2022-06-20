@@ -1,0 +1,19 @@
+$text: rgb(227, 124, 15);
+$bg: black;
+
+body{
+    color: $text;
+    background: $bg;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    border: 5px;
+    border-color: $text;
+}
+
+tr,td{
+    border: 1px solid;
+    border-color: white;
+}
