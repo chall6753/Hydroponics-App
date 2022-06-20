@@ -2,6 +2,7 @@ $text: rgb(227, 124, 15);
 $bg: black;
 
 body{
+    display: grid;
     color: $text;
     background: $bg;
 }
@@ -16,4 +17,8 @@ table{
 tr,td{
     border: 1px solid;
     border-color: white;
+}
+
+h1{
+    text-align: center;
 }
